@@ -67,6 +67,7 @@ public class MainFragment extends Fragment implements View.OnClickListener{
 
         initView();
         initTabhost();
+
         initMenu();
     }
 
