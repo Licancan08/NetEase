@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--导入顶部布局-->
+    <include layout="@layout/top_title" android:id="@+id/top"/>
+
+    <com.example.kson.tablayout.widget.HorizontalScollTabhost
+        android:id="@+id/tabhost_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top">
+    </com.example.kson.tablayout.widget.HorizontalScollTabhost>
+</RelativeLayout>

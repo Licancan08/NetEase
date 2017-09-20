@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/tv_title2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:padding="10dp"
+            android:textColor="#333333"/>
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_category2"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="category"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/iv_img21"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/iv_img22"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/iv_img23"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
